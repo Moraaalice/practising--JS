@@ -96,3 +96,7 @@ let phrase = "You cannot end a sentence with  because because because is a conju
 let phrase2 = phrase.substr(31,24);
 console.log(phrase2);
 //
+let count = "Love is the best thing in this world.Some found their love and some are still looking for their love";
+let count2 = count.match(/love/gi);
+console.log(count2);
+//
